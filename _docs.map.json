@@ -1,0 +1,17 @@
+{
+  "react-md-renderer": ["README.ko.md"],
+  "react-animated": ["README.ko.md"],
+
+  "react-hooks": [
+    "src/use-modal/README.md",
+    "src/use-force-render/README.md",
+    "src/use-boolean-state/README.md",
+    "src/use-debounced/README.md",
+    "src/use-clipboard/README.md",
+    "src/use-conditional-render/README.md",
+    "src/use-isomorphic-layout-effect/README.md",
+    "src/use-numbers/README.md"
+  ],
+  "laser": ["README.md"],
+  "docs": ["README.md"]
+}
