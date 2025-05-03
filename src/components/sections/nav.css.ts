@@ -5,5 +5,6 @@ export const NAV_WRAPPER = style({
   flexDirection: 'row',
   justifyContent: 'center',
   alignItems: 'center',
+  marginTop: '1rem',
   marginBottom: '2rem',
 });
