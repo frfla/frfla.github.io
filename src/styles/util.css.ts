@@ -7,6 +7,16 @@ export const ALL_CENTER = style({
   alignItems: 'center',
 });
 
+export const WH_SCREEN = style({
+  minHeight: '100dvh',
+  width: '100%',
+});
+
+export const WH_SCREEN_INNER = style({
+  minHeight: 'calc(100dvh - 7rem)',
+  width: '100%',
+});
+
 export const FLEX_ROW = style({
   display: 'flex',
   flexDirection: 'row',
