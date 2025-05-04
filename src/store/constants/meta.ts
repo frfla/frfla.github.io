@@ -9,7 +9,7 @@ export const REPO_URL = {
 export const CAPTIONS = {
   'react-md-renderer': 'Easy Markdown Renderer with CSS-Only Customs',
   'react-hooks': 'Utility Hooks',
-  'react-animated': 'Animatied Hooks and Components',
+  'react-animated': 'Animatied Hooks and Components: Under Construction',
   laser: 'JS/TS Utilities',
   docs: '',
 };
