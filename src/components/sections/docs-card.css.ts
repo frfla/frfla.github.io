@@ -4,20 +4,21 @@ export const CARD_WRAPPER = style({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
-  borderRadius: '1rem',
+  borderRadius: '0.5rem',
   border: 'none',
   backgroundColor: '#fafafa',
 });
 
 export const INFO = style({
-  padding: '1.15rem 1rem 1.25rem 1rem',
-  gap: '0.5rem',
+  padding: '1.5rem 1.25rem 2.5rem 1.25rem',
+  gap: '0.3rem',
+  justifyContent: 'flex-start',
 });
 
 export const TITLE = style({
-  textTransform: 'capitalize',
-  fontWeight: 700,
-  fontSize: '1.35rem',
+  textTransform: 'uppercase',
+  fontWeight: 800,
+  fontSize: '1.15rem',
 });
 
 export const CAPTION = style({
@@ -40,9 +41,11 @@ export const FLEX = style({
 const LINK_BASE = style({
   display: 'flex',
   width: '100%',
-  gap: '0.2rem',
-  padding: '0.5rem 1rem 0.5rem 1rem',
+  borderTop: '1px solid #efefef',
+  padding: '0.75rem 1rem 0.75rem 1rem',
   textDecoration: 'none',
+  fontSize: '0.85rem',
+  fontWeight: 600,
   selectors: {
     '&:hover': {
       backgroundColor: '#efefef',
@@ -53,6 +56,8 @@ const LINK_BASE = style({
 export const LINK_RIGHT = style([
   LINK_BASE,
   {
+    borderLeft: '1px solid #efefef',
+    gap: '0.4rem',
     borderBottomRightRadius: '1rem',
   },
 ]);
@@ -60,6 +65,7 @@ export const LINK_RIGHT = style([
 export const LINK_LEFT = style([
   LINK_BASE,
   {
+    gap: '0.3rem',
     borderBottomLeftRadius: '1rem',
   },
 ]);

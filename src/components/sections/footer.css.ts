@@ -1,8 +1,10 @@
 import { style } from '@vanilla-extract/css';
 
 export const FOOTER = style({
-  width: '100%',
+  display: 'flex',
+  justifyContent: 'center',
   marginTop: '10rem',
-  textAlign: 'center',
-  fontSize: '0.95rem',
+  paddingBlock: '2rem',
+  fontSize: '0.75rem',
+  color: '#999',
 });

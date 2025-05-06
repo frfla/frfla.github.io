@@ -16,11 +16,11 @@ export function DocsCard({ title, caption }: { title: string; caption: string })
       <div className={[JUSTIFY_CENTER, SPACE_BETWEEN].join(' ')}>
         <Link to={`/${title}/docs`} className={[ALIGN_CENTER, LINK_LEFT].join(' ')}>
           <ReaderIcon width="1.2rem" height="1.2rem" />
-          <span>Documents</span>
+          <span>DOCS</span>
         </Link>
         <a href={href} target="_blank" className={[ALIGN_CENTER, LINK_RIGHT].join(' ')}>
           <GitHubLogoIcon width="1.2rem" height="1.2rem" />
-          <span>Github</span>
+          <span>GitHub</span>
         </a>
       </div>
     </div>

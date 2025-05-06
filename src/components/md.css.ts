@@ -33,7 +33,7 @@ export const MARKDOWN_CSS: Partial<RendererCSSMap> = {
     paddingBlock: '0.75rem ',
     overflowX: 'auto',
     backgroundColor: '#fafafa',
-    borderRadius: '0.75rem',
+    borderRadius: '0.5rem',
     marginBottom: '1.25rem',
     '& > code': {
       all: 'inherit',
@@ -46,7 +46,7 @@ export const MARKDOWN_CSS: Partial<RendererCSSMap> = {
     padding: '0.1rem 0.4rem 0.1rem 0.4rem',
     marginInline: '0.1rem',
     backgroundColor: '#f5f5f5',
-    borderRadius: '0.5rem',
+    borderRadius: '0.35rem',
     color: 'hotpink',
     fontFamily: 'JetBrains Mono',
   },
