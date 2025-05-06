@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@frfla/react-md-renderer':
-        specifier: ^0.12.6
-        version: 0.12.6(@types/react@19.1.2)(react@19.1.0)
+        specifier: ^0.13.3
+        version: 0.13.3(@types/react@19.1.2)(react@19.1.0)
       '@radix-ui/react-icons':
         specifier: ^1.3.2
         version: 1.3.2(react@19.1.0)
@@ -355,8 +355,8 @@ packages:
     peerDependencies:
       react: '>=18'
 
-  '@frfla/react-md-renderer@0.12.6':
-    resolution: {integrity: sha512-KMgxNAT0VKUxXopSn4jGXrKekQj+aOQfeUa6z8nhycju0ZCU9/B7uMbInfsvAc9LBLXpkQ5yPlSVJzE0HAx3Uw==}
+  '@frfla/react-md-renderer@0.13.3':
+    resolution: {integrity: sha512-7BwJjINr5Z1QxbQMJtmK7z5xBK1+0HnK0V4Lq9B12YgXJZvhzYgemZPuFpRBF1eppj18esIlBeW2mABcecVn1Q==}
     peerDependencies:
       react: '>=18'
 
@@ -2041,7 +2041,7 @@ snapshots:
     dependencies:
       react: 19.1.0
 
-  '@frfla/react-md-renderer@0.12.6(@types/react@19.1.2)(react@19.1.0)':
+  '@frfla/react-md-renderer@0.13.3(@types/react@19.1.2)(react@19.1.0)':
     dependencies:
       '@frfla/laser': 0.1.0
       '@frfla/react-hooks': 0.10.2(react@19.1.0)
