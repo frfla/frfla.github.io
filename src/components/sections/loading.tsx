@@ -7,7 +7,8 @@ export function Loading() {
     <div className={[WH_SCREEN_INNER].join(' ')}>
       <h2 className={ERROR_TXT}>
         <BorderDashedIcon width="1.25rem" height="1.25rem" />
-        <br />L O A D I N G
+        <br />
+        One Moment Please
       </h2>
     </div>
   );
