@@ -2,8 +2,6 @@
   "docs": ["/__posts/test.md"],
 
   "react-md-renderer": ["README.ko.md"],
-  "react-animated": ["README.ko.md"],
-
   "react-hooks": [
     "README.ko.md",
     "src/use-modal/README.md",
@@ -15,5 +13,7 @@
     "src/use-isomorphic-layout-effect/README.md",
     "src/use-numbers/README.md"
   ],
-  "laser": ["README.ko.md"]
+  "laser": ["README.ko.md"],
+  "sogno": ["README.ko.md"],
+  "fluire": ["README.ko.md"]
 }
